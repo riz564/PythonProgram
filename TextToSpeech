@@ -1,0 +1,9 @@
+
+import gtts
+from playsound import playsound
+
+tts =gtts.gTTS("Mere channel Alpha Technolics ko subscribe karein", lang="hi")
+
+tts.save("rizwan1.mp3")
+
+playsound("rizwan1.mp3")
